@@ -1,6 +1,25 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #white;
+  color: #black;
+  font-size: 16px;
+  line-height:normal;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color:#0070BB; } /* unvisited */
+}
+
+a:visited {
+  color: #0070BA;
+}
+
+a:active {
+  color:#0070bc;
 }
 
 nav {
@@ -8,6 +27,17 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-style: bold;
+  margin:auto;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-style: italic;
 }
 
 .logo {
@@ -20,7 +50,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 100%;
 }
 
 .left, .right {
@@ -30,6 +60,8 @@ nav {
 
 .right {
   float: right;
+  list-style-type: none;
+
 }
 
 ul {
@@ -40,6 +72,11 @@ ul {
 li {
   float: right;
   padding: 30px;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 article {
@@ -49,4 +86,9 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
 }
